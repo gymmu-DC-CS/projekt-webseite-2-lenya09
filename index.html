@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en"
+<head>
+<title>Places in Singapore</title>
+
+<style>
+
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+h1{
+    margin-top: 30px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    padding: 40px;
+}
+
+.place{
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+.place img{
+    width: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect */
+.place img:hover{
+    transform: scale(1.08);
+}
+
+h3{
+    margin-top: 10px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>Famous Places in Singapore</h1>
+
+<div class="grid">
+
+<div class="place">
+<img src="images/Garden-by-the-Bay.jpeg" alt="Gardens by the Bay">
+<h3>Gardens by the Bay</h3>
+<p>A famous nature park with futuristic Supertrees and beautiful gardens.</p>
+</div>
+
+<div class="place">
+<img src="images/Parkroyal-Collection-Pickering.jpeg" alt="Parkroyal Collection Pickering">
+<h3>Parkroyal Collection Pickering</h3>
+<p>A unique hotel known for its green architecture with gardens built into the building.</p>
+</div>
+
+<div class="place">
+<img src="images/Orchard-Road.jpeg" alt="Orchard Road">
+<h3>Orchard Road</h3>
+<p>Singapore’s main shopping street with many malls, restaurants and luxury stores.</p>
+</div>
+
+<div class="place">
+<img src="images/Chinatown.jpg" alt="Chinatown">
+<h3>Chinatown</h3>
+<p>A vibrant district with temples, markets and amazing Chinese food.</p>
+</div>
+
+<div class="place">
+<img src="images/Sentosa-Island.jpg.avif" alt="Sentosa Island">
+<h3>Sentosa Island</h3>
+<p>A popular island with beaches, theme parks and many fun activities.</p>
+</div>
+
+<div class="place">
+<img src="images/Marina-Bay.jpeg" alt="Marina Bay">
+<h3>Marina Bay</h3>
+<p>One of Singapore’s most famous areas with its iconic skyline and Marina Bay Sands.</p>
+</div>
+
+</div>
+
+</body>
+</html>
