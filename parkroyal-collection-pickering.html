@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,15 +10,20 @@
 
 <body>
 
-    <div class="container">
+<script src="parkroyal.js"></script>
+   
+<div class="container">
     <div class="checklist">
-        <h2>Parkroyal-Pickering activities</h2>
+        <h2>Park-Royal activities</h2>
         <ol>
-            <li>Enjoy the all you can eat buffet</li>
-            <li>Take a dip into the coolin pool</li>
-            <li>Book a spa day with relaxing oils</li>
-            <li>Enjoy the view from the spacious balcony</li>
-            <li>Relax in a luxurious room</li>
+        <ul class="checklist">
+    <li onclick="toggleItem(this, 'item1')">Enjoy the all you can eat buffet</li>
+    <li onclick="toggleItem(this, 'item2')">Take a dip into the coolin pool</li>
+    <li onclick="toggleItem(this, 'item3')">Book a spa day with relaxing oils</li>
+    <li onclick="toggleItem(this, 'item1')">Enjoy the view from the spacious balcony</li>
+    <li onclick="toggleItem(this, 'item2')">Relax in a luxurious room</li>
+
+        </ul>
         </ol>
     </div>
 </div>

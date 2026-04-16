@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,15 +11,20 @@
 
 <body>
 
-    <div class="container">
+<script src="garden.js"></script>
+   
+<div class="container">
     <div class="checklist">
         <h2>Garden by the Bay activities</h2>
         <ol>
-            <li>Walk through the Supertree Grove</li>
-            <li>Explore the Cloud Forest</li>
-            <li>Visit the Flower Dome</li>
-            <li>Walk on the OCBC Skyway</li>
-            <li>Enjoy the Garden Rhapsody Light Show</li>
+        <ul class="checklist">
+    <li onclick="toggleItem(this, 'item1')">Walk through the Supertree Grove</li>
+    <li onclick="toggleItem(this, 'item2')">Explore the Cloud Forest</li>
+    <li onclick="toggleItem(this, 'item3')">Visit the Flower Dome</li>
+    <li onclick="toggleItem(this, 'item1')">Walk on the OCBC Skyway</li>
+    <li onclick="toggleItem(this, 'item2')">Watch the Garden Rhapsody Light Show</li>
+
+        </ul>
         </ol>
     </div>
 </div>

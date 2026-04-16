@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,15 +10,20 @@
 
 <body>
 
-    <div class="container">
+<script src="orchard.js"></script>
+   
+<div class="container">
     <div class="checklist">
-        <h2>Orchard-Road activities</h2>
+        <h2>Orchard Road activities</h2>
         <ol>
-            <li>Go shopping at ION Orchard</li>
-            <li>Explore Ngee Ann City</li>
-            <li>Relax at Orchard Central</li>
-            <li>Eat at local cafés and food courts along Orchard Road</li>
-            <li>Take an evening walk along the shopping strip</li>
+        <ul class="checklist">
+    <li onclick="toggleItem(this, 'item1')">Go shopping at ION Orchard</li>
+    <li onclick="toggleItem(this, 'item2')">Explore Ngee Ann City</li>
+    <li onclick="toggleItem(this, 'item3')">Relax at Orchard Central</li>
+    <li onclick="toggleItem(this, 'item1')">Eat at local cafés and food courts along Orchard Road</li>
+    <li onclick="toggleItem(this, 'item2')">Take an evening walk along the shopping strip</li>
+
+        </ul>
         </ol>
     </div>
 </div>

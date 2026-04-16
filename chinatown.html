@@ -9,15 +9,20 @@
 
 <body>
 
-    <div class="container">
+<script src="cinatown.js"></script>
+   
+<div class="container">
     <div class="checklist">
         <h2>Chinatown activities</h2>
         <ol>
-            <li>Visit the Buddha Tooth Relic Temple</li>
-            <li>Eat at Chinatown Complex Food Centre</li>
-            <li>Walk through Chinatown Heritage Centre</li>
-            <li>Explore Sri Mariamman Temple</li>
-            <li>Shop and browse along Chinatown Street Market</li>
+        <ul class="checklist">
+    <li onclick="toggleItem(this, 'item1')">Visit Buddha Tooth Relic Temple</li>
+    <li onclick="toggleItem(this, 'item2')">Shop at Chinatown Street Market</li>
+    <li onclick="toggleItem(this, 'item3')">Eat at Chinatown Food Street</li>
+    <li onclick="toggleItem(this, 'item1')">Visit the Chinatown Heritage Centre</li>
+    <li onclick="toggleItem(this, 'item2')">See Sri Mariamman Temple</li>
+
+        </ul>
         </ol>
     </div>
 </div>

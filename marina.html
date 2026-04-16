@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,15 +11,20 @@
 
 <body>
 
-    <div class="container">
+<script src="marina.js"></script>
+   
+<div class="container">
     <div class="checklist">
         <h2>Marina Bay activities</h2>
         <ol>
-            <li>Visit Marina Bay Sands SkyPark</li>
-            <li>Watch the Spectra Light & Water Show</li>
-            <li>Walk along the Helix Bridge</li>
-            <li>Visit the ArtScience Museum</li>
-            <li>Take a ride on the Singapore Flyer</li>
+        <ul class="checklist">
+    <li onclick="toggleItem(this, 'item1')">Visit Marina Bay Sands SkyPark</li>
+    <li onclick="toggleItem(this, 'item2')">Watch the Spectra Light & Water Show</li>
+    <li onclick="toggleItem(this, 'item3')">Walk along the Helix Bridge</li>
+    <li onclick="toggleItem(this, 'item1')">Visit the ArtScience Museum></li>
+    <li onclick="toggleItem(this, 'item2')">Take a ride on the Singapore Flyer</li>
+
+        </ul>
         </ol>
     </div>
 </div>

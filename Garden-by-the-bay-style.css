@@ -1,7 +1,7 @@
 body{
     margin:0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #00bcd4, #4caf50);
+    background: linear-gradient(135deg, #b2d4d9, #c76de0);
 }
 
 
@@ -13,14 +13,7 @@ body{
     height:100vh;
 }
 
-/* Checklist card */
-.checklist{
-    background:white;
-    width:320px;
-    padding:25px;
-    border-radius:15px;
-    box-shadow:0px 8px 20px rgba(0,0,0,0.2);
-}
+
 
 /* Title */
 .checklist h2{
@@ -52,4 +45,22 @@ body{
 .checklist li::marker{
     color:#00bcd4;
     font-weight:bold;
+}
+
+.checklist li{
+    
+    cursor:pointer;
+    padding:12px;
+    margin:12px 0;
+    background:#f1f1f1;
+    border-radius:30px;
+    transition:0.3s;
+    width:320px;
+
+}
+
+.checklist li.done{
+    text-decoration: line-through;
+    background:#c8e6c9;
+    color:#555;
 }

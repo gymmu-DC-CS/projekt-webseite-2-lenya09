@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,15 +10,20 @@
 
 <body>
 
-    <div class="container">
+<script src="sentosa.js"></script>
+   
+<div class="container">
     <div class="checklist">
-        <h2>Sentosa-Island activities</h2>
+        <h2>Sentosa Island activities</h2>
         <ol>
-            <li>Have fun at Universal Studios Singapore</li>
-            <li>Explore S.E.A. Aquarium</li>
-            <li>Relax at Siloso Beach</li>
-            <li>Ride the Skyline Luge Sentosa</li>
-            <li>take the Singapore Cable Car to the island</li>
+        <ul class="checklist">
+    <li onclick="toggleItem(this, 'item1')">Have fun at Universal Studios Singapore</li>
+    <li onclick="toggleItem(this, 'item2')">Explore S.E.A. Aquarium</li>
+    <li onclick="toggleItem(this, 'item3')">Relax at Siloso Beach</li>
+    <li onclick="toggleItem(this, 'item1')">Ride the Skyline Luge Sentosa</li>
+    <li onclick="toggleItem(this, 'item2')">take the Singapore Cable Car to the island</li>
+
+        </ul>
         </ol>
     </div>
 </div>
